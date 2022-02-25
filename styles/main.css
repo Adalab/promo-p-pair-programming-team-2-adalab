@@ -1,0 +1,44 @@
+/* :root {
+  --brand-color: white;
+} */
+
+body {
+  font-family: "Roboto", "Open Sans";
+  /* color: ; */
+}
+
+.nav {
+  background-color: black;
+  /* color: var(--brand-color); */
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_logo {
+  width: 50%;
+}
+
+.nav_header {
+  position: sticky;
+  top: 0;
+  font-size: 20px;
+  color: white;
+}
+.nav_footer {
+  font-size: 5px;
+  color: white;
+}
+
+.li_menu {
+  list-style: none;
+  display: flex;
+}
+
+.link_item {
+  padding: 5px;
+}
+
+.banner {
+  background-color: lightskyblue;
+}
+
