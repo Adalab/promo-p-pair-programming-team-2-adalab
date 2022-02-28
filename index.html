@@ -4,68 +4,75 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/main.css" />
     <title>Spotify</title>
   </head>
   <body>
     <header class="nav nav_header">
-      <section>
-        <nav>
-          <img class="img_logo" src="./images/logo.png" alt="spotify_image" />
-          <!-- <a href="https://open.spotify.com/">Spotify</a> -->
-        </nav>
-      </section>
-      <section>
+      <div class="container">
         <nav class="nav">
+          <img class="img_logo" src="./images/logo.png" alt="spotify_image" />
+
+          <img
+            class="burguer_menu"
+            src="./images/menu-icon.png"
+            alt="burgermenu"
+          />
           <ul class="li_menu">
             <li class="link_item">Ayuda</li>
             <li class="link_item">Premium</li>
             <li class="link_item">Descargar</li>
-            <li class="link_item"role="separator"></li>
+            <li class="link_item" role="separator">|</li>
             <li class="link_item">Registrarse</li>
             <li class="link_item">Iniciar Sesión</li>
           </ul>
         </nav>
-      </section>
+      </div>
     </header>
     <main>
       <section class="banner">
-        <h1>Prueba Premium gratis 3 meses</h1>
-        <p>
-          Escucha millones de canciones sin anuncios, a la carta y sin conexión
-        </p>
-        <button>VER PLANES</button>
-        <p>
-          Rigen términos y condiciones. Los tres meses gratis no están
-          disponibles para usuarios que no hayan probado Premium.
-        </p>
+        <div class="container">
+          <h1>Prueba Premium gratis 3 meses</h1>
+          <p>
+            Escucha millones de canciones sin anuncios, a la carta y sin
+            conexión
+          </p>
+          <button>VER PLANES</button>
+          <p>
+            Rigen términos y condiciones. Los tres meses gratis no están
+            disponibles para usuarios que no hayan probado Premium.
+          </p>
+        </div>
       </section>
+
       <section>
-        <h2>¿Por qué pasarte a Premium?</h2>
-        <ul>
-          <li>
-            <p>Descarga música.</p>
-            <p>Llévala siempre contigo.</p>
-          </li>
-          <li>
-            <p>Sin anuncios.</p>
-            <p>Disfruta de música sin interrupciones.</p>
-          </li>
-          <li>
-            <p>Escucha lo que quieras</p>
-            <p>Incluso en el móvil.</p>
-          </li>
-          <li>
-            <p>Salta todas las canciones que quieras.</p>
-            <p>Simplemente dale a siguiente.</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2>¿Por qué pasarte a Premium?</h2>
+          <ul>
+            <li>
+              <p>Descarga música.</p>
+              <p>Llévala siempre contigo.</p>
+            </li>
+            <li>
+              <p>Sin anuncios.</p>
+              <p>Disfruta de música sin interrupciones.</p>
+            </li>
+            <li>
+              <p>Escucha lo que quieras</p>
+              <p>Incluso en el móvil.</p>
+            </li>
+            <li>
+              <p>Salta todas las canciones que quieras.</p>
+              <p>Simplemente dale a siguiente.</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="nav nav_footer">
       <section>
-        <nav >
+        <nav>
           <ul>
             <li>Legal</li>
             <li>Coockies</li>
@@ -74,8 +81,9 @@
         </nav>
       </section>
       <section>
-        <p>España
-        <img src="./images/spainthumb.gif" alt="image_flag" width="10px" />
+        <p>
+          España
+          <img src="./images/spainthumb.gif" alt="image_flag" width="10px" />
         </p>
         <p>c 2019 Spotify AB</p>
       </section>
